@@ -84,6 +84,7 @@ html{
     width: 100%;
     top: 0;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav{
@@ -159,7 +160,21 @@ html{
     color: #fff;
     font-size: 20px;
     line-height: 46px;
-    
+}
+
+#header .menu-btn{
+    float: right;
+    padding: 0 21px;
+    cursor: pointer;
+}
+#header .menu-btn:hover{
+    background-color: #ccc;
+} 
+
+#header .mobi-menu-icon{
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
 }
 
 #slider{
